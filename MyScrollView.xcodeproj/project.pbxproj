@@ -13,6 +13,7 @@
 		9283D7BD1EC9F26200F5F8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283D7BB1EC9F26200F5F8E5 /* Main.storyboard */; };
 		9283D7BF1EC9F26200F5F8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9283D7BE1EC9F26200F5F8E5 /* Assets.xcassets */; };
 		9283D7C21EC9F26200F5F8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283D7C01EC9F26200F5F8E5 /* LaunchScreen.storyboard */; };
+		9283D7CB1EC9FBC700F5F8E5 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9283D7CA1EC9FBC700F5F8E5 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9283D7BE1EC9F26200F5F8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9283D7C11EC9F26200F5F8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9283D7C31EC9F26200F5F8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9283D7C91EC9FBC700F5F8E5 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		9283D7CA1EC9FBC700F5F8E5 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,10 @@
 		9283D7B11EC9F26200F5F8E5 /* MyScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				9283D7B51EC9F26200F5F8E5 /* AppDelegate.h */,
-				9283D7B61EC9F26200F5F8E5 /* AppDelegate.m */,
 				9283D7B81EC9F26200F5F8E5 /* ViewController.h */,
 				9283D7B91EC9F26200F5F8E5 /* ViewController.m */,
+				9283D7C91EC9FBC700F5F8E5 /* MyScrollView.h */,
+				9283D7CA1EC9FBC700F5F8E5 /* MyScrollView.m */,
 				9283D7BB1EC9F26200F5F8E5 /* Main.storyboard */,
 				9283D7BE1EC9F26200F5F8E5 /* Assets.xcassets */,
 				9283D7C01EC9F26200F5F8E5 /* LaunchScreen.storyboard */,
@@ -74,6 +77,8 @@
 		9283D7B21EC9F26200F5F8E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9283D7B51EC9F26200F5F8E5 /* AppDelegate.h */,
+				9283D7B61EC9F26200F5F8E5 /* AppDelegate.m */,
 				9283D7B31EC9F26200F5F8E5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9283D7BA1EC9F26200F5F8E5 /* ViewController.m in Sources */,
+				9283D7CB1EC9FBC700F5F8E5 /* MyScrollView.m in Sources */,
 				9283D7B71EC9F26200F5F8E5 /* AppDelegate.m in Sources */,
 				9283D7B41EC9F26200F5F8E5 /* main.m in Sources */,
 			);
