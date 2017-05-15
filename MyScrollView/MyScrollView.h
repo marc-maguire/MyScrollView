@@ -10,6 +10,7 @@
 
 @interface MyScrollView : UIView
 
+@property (nonatomic) CGFloat contentSizeProperty;
 
 
 @end
